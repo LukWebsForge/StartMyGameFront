@@ -14,6 +14,14 @@ To test this frontend, I've created a [mock](https://github.com/LukWebsForge/Sta
 * [NES.css](https://github.com/nostalgic-css/NES.css)
 * [Webpack](https://webpack.js.org/)
 
+## Install on Nginx
+
+1. Create `/dist/` directory with production-ready assets by running `yarn run build`
+2. Copy the content of the `/dist/` directory to your server
+3. Copy the nginx configuration `/nginx/start-my-game.conf` to your server
+4. Edit the nginx configuration
+5. Restart nginx using `sudo systemctl restart nginx`
+
 ## Project setup
 ```
 yarn install

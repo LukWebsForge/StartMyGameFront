@@ -1,0 +1,18 @@
+@import "~nes.css/scss/base/color-palette";
+@import "~nes.css/scss/base/variables";
+
+span.is-primary, p.is-primary {
+    color: map-get($primary-colors, "normal");
+}
+
+span.is-success, p.is-success {
+    color: map-get($success-colors, "normal");
+}
+
+span.is-warning, p.is-warning {
+    color: map-get($warning-colors, "normal");
+}
+
+span.is-error, p.is-error {
+    color: map_get($error-colors, "normal");
+}

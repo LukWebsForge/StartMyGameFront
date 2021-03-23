@@ -9,21 +9,23 @@
         "test": "yarn run lint && yarn run build"
     },
     "dependencies": {
-        "nes.css": "2.3.0",
+        "nes.css": "^2.3.0",
         "vue": "^2.5.17",
-        "vue-class-component": "7.2.6",
-        "vue-property-decorator": "9.1.2"
+        "vue-class-component": "^7.2.6",
+        "vue-property-decorator": "^9.1.2"
     },
     "devDependencies": {
-        "@vue/cli-plugin-babel": "4.5.11",
-        "@vue/cli-plugin-typescript": "4.5.11",
-        "@vue/cli-service": "4.5.11",
-        "node-sass": "5.0.0",
-        "sass-loader": "10.1.1",
-        "typescript": "4.2.3",
+        "@vue/cli-plugin-babel": "^4.5.11",
+        "@vue/cli-plugin-typescript": "^4.5.11",
+        "@vue/cli-service": "^4.5.11",
+        "node-sass": "^5.0.0",
+        "sass-loader": "^10.1.1",
+        "typescript": "^4.2.3",
         "vue-template-compiler": "^2.5.17"
     },
     "resolutions": {
-        "node-forge": "^0.10.0"
+        "node-forge": "^0.10.0",
+        "ssri": "^8.0.1",
+        "is-svg": "^4.2.2"
     }
 }

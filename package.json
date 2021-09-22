@@ -18,19 +18,19 @@
         "@vue/cli-plugin-babel": "^4.5.13",
         "@vue/cli-plugin-typescript": "^4.5.13",
         "@vue/cli-service": "^4.5.13",
-        "node-sass": "^5.0.0",
+        "sass": "^1.42.1",
         "sass-loader": "^10.1.1",
         "typescript": "^4.2.4",
         "vue-template-compiler": "^2.5.17"
     },
     "resolutions": {
         "node-forge": "^0.10.0",
+        "nth-check": "^2.0.1",
+        "set-value": "^4.0.1",
         "ssri": "^8.0.1",
         "is-svg": "^4.2.2",
         "lodash": "^4.17.21",
-        "ws": "^7.4.6",
         "trim-newlines": "^4.0.2",
-        "normalize-url": "^6.0.1",
         "glob-parent": "^6.0.0"
     }
 }
